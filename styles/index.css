@@ -308,7 +308,7 @@ main {
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
     padding-left: 30px;
-    
+
 }
 
 .choose-section {
@@ -337,16 +337,50 @@ p {
 
 }
 
-.best-price img {
-    /* position: relative;
-    right: 150px; */
+.container-overview {
+    display: flex;
+}
 
+/* form section */
+.form-section-container {
+    display: flex;
+}
 
+footer {
+    /* width: 1440px; */
+    padding: 60px 135px 100px 135px;
+    background: #FFF;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-img {
+    position: relative;
+    left: 645px;
 
 }
 
-/* .best-price p{
+footer .banner-conten-footer {
+    padding-top: 50px;
+    color: #131318;
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.banner-conten-ft {
+    color: #5A5A5D;
+padding-top:30px;
     text-align: center;
-   padding-right: 135px;
-   padding-left: 500px;
-} */
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
