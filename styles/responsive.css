@@ -73,16 +73,129 @@
     text-align: center;
     font-weight: 700;
 }
+/* banner-section */
+.banner-section, .banner-content-section, .banner-img {
+   flex-direction: column;
+    width: 50%;
+    gap:20px;
 }
+/* feature section */
+ .img-container-1 {
+    flex-direction: column;
+    /* justify-content: space-between;
+        margin:auto;
+         */
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.row img {
+    width: 50%;
+    height: 50%;
+
+}
+.img-title{
+    position: relative;
+    bottom: 200px;
+    /* text-align: center; */
+    /* left:10px; */
+    right: 320px;
+    color: #FFF;
+
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 800;
+
+}
+    
+.feature-section {
+    padding: 0px 120px 0px 120px;
+    
+}
+
+} 
+
+
 
 /* tablet */
 @media screen and (min-width:600px) and (max-width:992px) {
 
     .header-section,
     .nav-container,
-    .nav-item-container {
+    .nav-item-container,
+    .container-img,
+    .btn-container {
         flex-direction: column;
         align-items: center;
 
+
     }
+
+    .container-img {
+        width: 100%;
+        /* height: auto; */
+        flex-shrink: 0;
+        flex-wrap: wrap;
+        gap:10px;
+    }
+
+    .header-title {
+        top: 50px;
+        padding-right: 50px;
+        left:30px;
+        font-size: 1.4rem;
+
+    }
+
+    .header-description {
+        top: 80px;
+        left: 10px;
+        right: 10px;
+        font-size: 1rem;
+        font-weight: 400;
+        width: 100%;
+    }
+
+    .btn-container {
+        flex-direction: column;
+        position: relative;
+        top: 100px;
+        align-items: center;
+        left: 10px;
+        gap: 10px;
+        /* right: 10px; */
+    }
+
+    .btn {
+        border-radius: 8px;
+        background: #FFF;
+        width: 100%;
+        color: rgba(19, 19, 24, 0.50);
+        font-size: 1rem;
+        font-weight: 400;
+        padding: 15px;
+        position: relative;
+
+    }
+
+  
+.btn-1{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    font-size: 1rem;
+    padding: 10px;
+    border: 0;
+    color: #FFF;
+    text-align: center;
+    font-weight: 700;
 }
+/* banner-section */
+.banner-section, .banner-content-section, .banner-img {
+    flex-direction: column;
+     width: 70%;
+     gap:20px;
+ }
+
+}
+/*  */
