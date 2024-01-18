@@ -28,14 +28,30 @@
 
 }
 
-nav {
+.header-section {
     display: flex;
-    justify-content: space-between;
+    /* background-color: red; */
+    max-width: 1250px;
+    margin: 0 auto;
+    /* border: 2px solid blue; */
+    align-items: center;
 }
 
-nav>ul {
+.nav-container {
     display: flex;
+    align-items: center;
+    width: 50%;
+    gap: 10px;
+
 }
+
+.nav-item-container>ul {
+    display: flex;
+    max-width: 50%;
+    /* justify-content: space-between;
+   align-items: center; */
+}
+
 
 nav li {
     list-style: none;
@@ -55,7 +71,9 @@ nav li a {
 /* header styles */
 header {
     padding: 60px 135px 100px 135px;
-    
+    background: #FFF;
+    margin: 0 auto;
+    max-width: 1250px;
 
 }
 
@@ -76,7 +94,7 @@ header {
     left: 287px;
     color: #FFF;
     text-align: center;
-    font-size: 1remx;
+    font-size: 1rem;
     font-weight: 400;
     text-align: center;
     width: 50%;
@@ -85,28 +103,60 @@ header {
 }
 
 .container-img {
-    /* background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%); */
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
     background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
     background-size: cover;
     background-position: center;
     border-radius: 16px;
     margin-top: 3rem;
-
-    /* background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%); */
-    width: auto;
+    background-repeat: no-repeat;
+    width: 1170px;
     height: 500px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
 
 }
-.btn-container{
+
+.btn-container {
+    display: flex;
     position: relative;
-    top: 130px;
-    left:440px;
-
+    top: 140px;
+    align-items: center;
+    left: 150px;
 }
+
 .btn {
     border-radius: 8px;
     background: #FFF;
+    width: 174px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
     padding: 20px;
+    /* text-align: center; */
+    position: relative;
+    /* border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    width: 342px;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 100px; */
+}
+
+.btn-1{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    font-size: 1rem;
+    padding: 10px;
+    border: 0;
+    color: #FFF;
+    text-align: center;
+    font-weight: 700;
 }
 
 .btn-container {
