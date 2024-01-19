@@ -328,10 +328,10 @@ p {
 /* deals section */
 .deals-section {
     gap: 20px;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
-.deals-section-1 {
+/* .deals-section-1 {
     background-image: url('../Images/Rectangle\ 12\ \(1\).png');
     background-repeat: no-repeat;
     width: 100%;
@@ -343,11 +343,12 @@ p {
     background-repeat: no-repeat;
     width: 100%;
     background-size: contain;
-}
+} */
 
 .deals-sec {
     max-width: 1440px;
     height: auto;
+    margin-top: 50px;
 
 }
 
@@ -363,12 +364,13 @@ p {
     width: 579px;
     height: 389px;
     padding: 15px 10px 0px 15px;
-    gap:5px;
+    gap: 5px;
     position: relative;
-    bottom:500px;
-    left:700px;
+    bottom: 500px;
+    left: 700px;
 
 }
+
 .bg-2 {
     border-radius: 16px;
     border: 2px solid red;
@@ -376,12 +378,13 @@ p {
     width: 579px;
     height: 389px;
     padding: 15px 10px 0px 15px;
-    gap:5px;
+    gap: 5px;
     position: relative;
-    bottom:500px;
-    left:100px;
+    bottom: 500px;
+    left: 100px;
 
 }
+
 .bg-3 {
     border-radius: 16px;
     border: 2px solid red;
@@ -389,10 +392,10 @@ p {
     width: 579px;
     height: 389px;
     padding: 15px 10px 0px 15px;
-    gap:5px;
+    gap: 5px;
     position: relative;
-    bottom:500px;
-    left:700px;
+    bottom: 500px;
+    left: 700px;
 
 }
 
@@ -400,27 +403,33 @@ p {
     color: #131318;
     font-size: 1.3rem;
     font-weight: 800;
-     ;
+
 }
 
 .tour-content {
     color: #5A5A5D;
-text-align: justify;
+    text-align: justify;
     font-family: Mulish;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px
+
 }
-.price-items{
-color: #FF5400;
-text-align: justify;
-font-family: Mulish;
-font-size: 20px;
-font-style: normal;
-font-weight: 800;
-/* align-items: start; */
-/* padding-bottom: 5px; */
+
+.price-items {
+    color: #FF5400;
+    text-align: justify;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    /* align-items: start; */
+    /* padding-bottom: 5px; */
+}
+
+.deals-sec-items {
+  position: relative;
+  left:50px;
 }
 
 
